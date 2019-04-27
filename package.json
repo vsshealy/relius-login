@@ -1,0 +1,28 @@
+{
+  "name": "relius-login",
+  "version": "1.0.0",
+  "description": "A custom redesign to the Relius login page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsshealy/relius-login.git"
+  },
+  "author": "Scott Shealy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vsshealy/relius-login/issues"
+  },
+  "homepage": "https://github.com/vsshealy/relius-login#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
