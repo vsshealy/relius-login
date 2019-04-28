@@ -1,0 +1,276 @@
+/**
+ * sass/global/typography.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+// HEADING TEXT
+h1, h2, h3, h4, h5, h6 {
+    // GLOBAL
+    font-family: $text-headings;
+    line-height: 1.25;
+    color: $color-text-headings;
+    margin: 2.00rem 0.00rem;
+    padding: 0.00rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //ALL
+
+h1 {
+    // GLOBAL
+    font-size: 2.25em;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H1
+
+h2 {
+    // GLOBAL
+    font-size: 2.00em;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H2
+
+h3 {
+    // GLOBAL
+    font-size: 1.75em;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H3
+
+h4 {
+    // GLOBAL
+    font-size: 1.50em !important;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H4
+
+h5 {
+    // GLOBAL
+    font-size: 1.25em;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H5
+
+h6 {
+    // GLOBAL
+    font-size: 1.00em;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //H6
+
+// BODY TEXT
+p, li {
+    // GLOBAL
+    font-family: $text-body;
+    font-weight: 300;
+    font-size: 1.00em;
+    line-height: 1.50;
+    color: $color-text-body;
+    margin: 0.00rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //P, LI
+
+p {
+    // GLOBAL
+    margin: 1.00rem 0.00rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //P
+
+li {
+    // GLOBAL
+    margin: 0.50rem 0.00rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //LI
+
+a {
+    // GLOBAL
+    text-decoration: none;
+    color: $color-penserv-link;
+
+    &:hover {
+        text-decoration: none;
+        color: $color-penserv-link-hover;
+        cursor: pointer;
+    } //:HOVER
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    &.link-address {
+        // GLOBAL
+        color: inherit;
+
+        &:hover {
+            color: inherit;
+        } //:HOVER
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+    } //.LINK-ADDRESS
+
+    &.link-phone {
+        // GLOBAL
+        color: inherit;
+        cursor: default;
+
+        &:hover {
+            color: inherit;
+            cursor: default;
+        } //:HOVER
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+    } //.LINK-PHONE
+
+    &.elementor-button-link {
+        // GLOBAL
+        font-size: 1.00em !important;
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+    } //.ELEMENTOR-BUTTON-LINK
+} //A
+
+.elementor-button-text, .elementor-size-sm {
+    // GLOBAL
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.ELEMENTOR-BUTTON-TEXT, .ELEMENTOR-SIZE-SM
+
+
+// ICON TEXT
+i {
+    // GLOBAL
+    margin: 0.00rem 0.50rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //I

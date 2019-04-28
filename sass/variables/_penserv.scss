@@ -1,0 +1,30 @@
+/**
+ * sass/variables/penserv.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+// BRAND COLORS
+$color-penserv-primary: $penserv-navy-10;
+$color-penserv-primary-hover: $penserv-navy-8;
+$color-penserv-primary-gradient1: $penserv-navy-8;
+$color-penserv-primary-gradient2: $penserv-navy-12;
+$color-penserv-secondary: $penserv-blue-10;
+$color-penserv-secondary-hover: $penserv-blue-8;
+$color-penserv-secondary-gradient1: $penserv-blue-8;
+$color-penserv-secondary-gradient2: $penserv-blue-12;
+
+// LINK COLORS
+$color-penserv-link: $penserv-green-10;
+$color-penserv-link-hover: $penserv-green-8;
+
+// TEXT
+$text-serif: Spectral, Georgia, "Times New Roman", serif;
+$text-sans: "Roboto Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+$text-body: $text-sans;
+$text-headings: $text-serif;
+$color-text-headings: $color-penserv-primary;
+$color-text-body: $grayscale-14;

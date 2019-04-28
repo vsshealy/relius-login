@@ -1,0 +1,1284 @@
+/**
+ * sass/global/containers.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+// ALL CONTAINERS
+.container-solid-navy-xlight, .container-solid-navy-light, .container-solid-navy, .container-solid-navy-dark, .container-solid-navy-xdark, .container-gradient-navy-xlight, .container-gradient-navy-light, .container-gradient-navy, .container-gradient-navy-dark, .container-gradient-navy-xdark, .container-solid-blue-xlight, .container-solid-blue-light, .container-solid-blue, .container-solid-blue-dark, .container-solid-blue-xdark, .container-gradient-blue-xlight, .container-gradient-blue-light, .container-gradient-blue, .container-gradient-blue-dark, .container-gradient-blue-xdark, .container-solid-green-xlight, .container-solid-green-light, .container-solid-green, .container-solid-green-dark, .container-solid-green-xdark, .container-gradient-green-xlight, .container-gradient-green-light, .container-gradient-green, .container-gradient-green-dark, .container-gradient-green-xdark, .container-solid-gray-xlight, .container-solid-gray-light, .container-solid-gray, .container-solid-gray-dark, .container-solid-gray-xdark, .container-gradient-gray-xlight, .container-gradient-gray-light, .container-gradient-gray, .container-gradient-gray-dark, .container-gradient-gray-xdark, .container-solid-grayscale-xlight, .container-solid-grayscale-light, .container-solid-grayscale, .container-solid-grayscale-dark, .container-solid-grayscale-xdark, .container-gradient-grayscale-xlight, .container-gradient-grayscale-light, .container-gradient-grayscale, .container-gradient-grayscale-dark, .container-gradient-grayscale-xdark {
+    // GLOBAL
+    padding: 2.00rem;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINERS-ALL
+
+// .CONTAINER-SOLID-NAVY
+.container-solid-navy-xlight {
+    // GLOBAL
+	background-color: $penserv-navy-2;
+	border: 1px solid $penserv-navy-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-10;
+	} //HEADINGS
+
+    p, li {
+        color: $color-text-body;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY-XLIGHT
+
+.container-solid-navy-light {
+    // GLOBAL
+	background-color: $penserv-navy-6;
+	border: 1px solid $penserv-navy-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY-LIGHT
+
+.container-solid-navy {
+    // GLOBAL
+	background-color: $penserv-navy-10;
+	border: 1px solid $penserv-navy-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY
+
+.container-solid-navy-dark {
+    // GLOBAL
+	background-color: $penserv-navy-14;
+	border: 1px solid $penserv-navy-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY-DARK
+
+.container-solid-navy-xdark {
+    // GLOBAL
+	background-color: $penserv-navy-16;
+	border: 1px solid $penserv-navy-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY-XDARK
+
+// .CONTAINER-GRADIENT-NAVY
+
+.container-gradient-navy-xlight {
+    // GLOBAL
+	background: $penserv-navy-2;
+	background: linear-gradient(to bottom right, $penserv-navy-1, $penserv-navy-3);
+	border: 1px solid $penserv-navy-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-NAVY-XLIGHT
+
+.container-gradient-navy-light {
+    // GLOBAL
+	background: $penserv-navy-6;
+	background: linear-gradient(to bottom right, $penserv-navy-5, $penserv-navy-7);
+	border: 1px solid $penserv-navy-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-NAVY-LIGHT
+
+.container-gradient-navy {
+    // GLOBAL
+	background: $penserv-navy-10;
+	background: linear-gradient(to bottom right, $penserv-navy-9, $penserv-navy-11);
+	border: 1px solid $penserv-navy-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-NAVY
+
+.container-gradient-navy-dark {
+    // GLOBAL
+	background: $penserv-navy-14;
+	background: linear-gradient(to bottom right, $penserv-navy-13, $penserv-navy-15);
+	border: 1px solid $penserv-navy-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-NAVY-DARK
+
+.container-gradient-navy-xdark {
+    // GLOBAL
+	background: $penserv-navy-16;
+	background: linear-gradient(to bottom right, $penserv-navy-15, $penserv-navy-17);
+	border: 1px solid $penserv-navy-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-navy-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-NAVY-XDARK
+
+// .CONTAINER-SOLID-BLUE
+.container-solid-blue-xlight {
+    // GLOBAL
+	background-color: $penserv-blue-2;
+	border: 1px solid $penserv-blue-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-BLUE-XLIGHT
+
+.container-solid-blue-light {
+    // GLOBAL
+	background-color: $penserv-blue-6;
+	border: 1px solid $penserv-blue-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-BLUE-LIGHT
+
+.container-solid-blue {
+    // GLOBAL
+	background-color: $penserv-blue-10;
+	border: 1px solid $penserv-blue-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-BLUE
+
+.container-solid-blue-dark {
+    // GLOBAL
+	background-color: $penserv-blue-14;
+	border: 1px solid $penserv-blue-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-BLUE-DARK
+
+.container-solid-blue-xdark {
+    // GLOBAL
+	background-color: $penserv-blue-16;
+	border: 1px solid $penserv-blue-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-NAVY-XDARK
+
+// .CONTAINER-GRADIENT-BLUE
+.container-gradient-blue-xlight {
+    // GLOBAL
+	background: $penserv-blue-2;
+	background: linear-gradient(to bottom right, $penserv-blue-1, $penserv-blue-3);
+	border: 1px solid $penserv-blue-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-BLUE-XLIGHT
+
+.container-gradient-blue-light {
+    // GLOBAL
+	background: $penserv-blue-6;
+	background: linear-gradient(to bottom right, $penserv-blue-5, $penserv-blue-7);
+	border: 1px solid $penserv-blue-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-10;
+	} //HEADINGS
+
+    p, li {
+        color: $color-text-body;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-BLUE-LIGHT
+
+.container-gradient-blue {
+    // GLOBAL
+	background: $penserv-blue-10;
+	background: linear-gradient(to bottom right, $penserv-blue-9, $penserv-blue-11);
+	border: 1px solid $penserv-blue-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-BLUE
+
+.container-gradient-blue-dark {
+    // GLOBAL
+	background: $penserv-blue-14;
+	background: linear-gradient(to bottom right, $penserv-blue-13, $penserv-blue-15);
+	border: 1px solid $penserv-blue-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-BLUE-DARK
+
+.container-gradient-blue-xdark {
+    // GLOBAL
+	background: $penserv-blue-16;
+	background: linear-gradient(to bottom right, $penserv-blue-15, $penserv-blue-17);
+	border: 1px solid $penserv-blue-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-blue-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-blue-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-BLUE-XDARK
+
+// .CONTAINER-SOLID-GREEN
+.container-solid-green-xlight {
+    // GLOBAL
+	background-color: $penserv-green-2;
+	border: 1px solid $penserv-green-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GREEN-XLIGHT
+
+.container-solid-green-light {
+    // GLOBAL
+	background-color: $penserv-green-6;
+	border: 1px solid $penserv-green-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GREEN-LIGHT
+
+.container-solid-green {
+    // GLOBAL
+	background-color: $penserv-green-10;
+	border: 1px solid $penserv-green-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GREEN
+
+.container-solid-green-dark {
+    // GLOBAL
+	background-color: $penserv-green-14;
+	border: 1px solid $penserv-green-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GREEN-DARK
+
+.container-solid-green-xdark {
+    // GLOBAL
+	background-color: $penserv-green-16;
+	border: 1px solid $penserv-green-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GREEN-XDARK
+
+// .CONTAINER-GRADIENT-GREEN
+.container-gradient-green-xlight {
+    // GLOBAL
+	background: $penserv-green-2;
+	background: linear-gradient(to bottom right, $penserv-green-1, $penserv-green-3);
+	border: 1px solid $penserv-green-3;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-10;
+	} //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GREEN-XLIGHT
+
+.container-gradient-green-light {
+    // GLOBAL
+	background: $penserv-green-6;
+	background: linear-gradient(to bottom right, $penserv-green-5, $penserv-green-7);
+	border: 1px solid $penserv-green-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GREEN-LIGHT
+
+.container-gradient-green {
+    // GLOBAL
+	background: $penserv-green-10;
+	background: linear-gradient(to bottom right, $penserv-green-9, $penserv-green-11);
+	border: 1px solid $penserv-green-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GREEN
+
+.container-gradient-green-dark {
+    // GLOBAL
+	background: $penserv-green-14;
+	background: linear-gradient(to bottom right, $penserv-green-13, $penserv-green-15);
+	border: 1px solid $penserv-green-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GREEN-DARK
+
+.container-gradient-green-xdark {
+    // GLOBAL
+	background: $penserv-green-16;
+	background: linear-gradient(to bottom right, $penserv-green-15, $penserv-green-17);
+	border: 1px solid $penserv-green-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-green-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-green-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GREEN-XDARK
+
+// .CONTAINER-SOLID-GRAY
+.container-solid-gray-xlight {
+    // GLOBAL
+	background-color: $penserv-gray-2;
+	border: 1px solid $penserv-gray-3;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAY-XLIGHT
+
+.container-solid-gray-light {
+    // GLOBAL
+	background-color: $penserv-gray-6;
+	border: 1px solid $penserv-gray-7;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAY-LIGHT
+
+.container-solid-gray {
+    // GLOBAL
+	background-color: $penserv-gray-10;
+	border: 1px solid $penserv-gray-11;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAY
+
+.container-solid-gray-dark {
+    // GLOBAL
+	background-color: $penserv-gray-14;
+	border: 1px solid $penserv-gray-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-gray-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAY-DARK
+
+.container-solid-gray-xdark {
+    // GLOBAL
+	background-color: $penserv-gray-16;
+	border: 1px solid $penserv-gray-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-gray-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAY-XDARK
+
+// .CONTAINER-GRADIENT-GRAY
+.container-gradient-gray-xlight {
+    // GLOBAL
+	background: $penserv-gray-2;
+	background: linear-gradient(to bottom right, $penserv-gray-1, $penserv-gray-3);
+	border: 1px solid $penserv-gray-3;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAY-XLIGHT
+
+.container-gradient-gray-light {
+    // GLOBAL
+	background: $penserv-gray-6;
+	background: linear-gradient(to bottom right, $penserv-gray-5, $penserv-gray-7);
+	border: 1px solid $penserv-gray-7;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAY-LIGHT
+
+.container-gradient-gray {
+    // GLOBAL
+	background: $penserv-gray-10;
+	background: linear-gradient(to bottom right, $penserv-gray-9, $penserv-gray-11);
+	border: 1px solid $penserv-gray-11;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAY
+
+.container-gradient-gray-dark {
+    // GLOBAL
+	background: $penserv-gray-14;
+	background: linear-gradient(to bottom right, $penserv-gray-13, $penserv-gray-15);
+	border: 1px solid $penserv-gray-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-navy-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-gray-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAY-DARK
+
+.container-gradient-gray-xdark {
+    // GLOBAL
+	background: $penserv-gray-16;
+	background: linear-gradient(to bottom right, $penserv-gray-15, $penserv-gray-17);
+	border: 1px solid $penserv-gray-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $penserv-gray-0;
+	} //HEADINGS
+
+	p, li {
+		color: $penserv-gray-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAY-XDARK
+
+// .CONTAINER-SOLID-GRAYSCALE
+.container-solid-white {
+    // GLOBAL
+	background-color: $grayscale-0;
+	border: 1px solid $grayscale-1;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-WHITE
+
+.container-solid-grayscale-xlight {
+    // GLOBAL
+	background-color: $grayscale-2;
+	border: 1px solid $grayscale-3;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAYSCALE-XLIGHT
+
+.container-solid-grayscale-light {
+    // GLOBAL
+	background-color: $grayscale-6;
+	border: 1px solid $grayscale-7;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAYSCALE-LIGHT
+
+.container-solid-grayscale {
+    // GLOBAL
+	background-color: $grayscale-10;
+	border: 1px solid $grayscale-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAYSCALE
+
+.container-solid-grayscale-dark {
+    // GLOBAL
+	background-color: $grayscale-14;
+	border: 1px solid $grayscale-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } //TEXT
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAYSCALE-DARK
+
+.container-solid-grayscale-xdark {
+    // GLOBAL
+	background-color: $grayscale-16;
+	border: 1px solid $grayscale-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } //TEXT
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-SOLID-GRAYSCALE-XDARK
+
+// .CONTAINER-GRADIENT-GRAYSCALE
+.container-gradient-grayscale-xlight {
+    // GLOBAL
+	background: $grayscale-2;
+	background: linear-gradient(to bottom right, $grayscale-1, $grayscale-3);
+	border: 1px solid $grayscale-3;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAYSCALE-XLIGHT
+
+.container-gradient-grayscale-light {
+    // GLOBAL
+	background: $grayscale-6;
+	background: linear-gradient(to bottom right, $grayscale-5, $grayscale-7);
+	border: 1px solid $grayscale-7;
+
+	h1, h2, h3, h4, h5, h6 {
+        color: $color-text-headings;
+    } //HEADINGS
+
+	p, li {
+        color: $color-text-body;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAYSCALE-LIGHT
+
+.container-gradient-grayscale {
+    // GLOBAL
+	background: $grayscale-10;
+	background: linear-gradient(to bottom right, $grayscale-9, $grayscale-11);
+	border: 1px solid $grayscale-11;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAYSCALE
+
+.container-gradient-grayscale-dark {
+    // GLOBAL
+	background: $grayscale-14;
+	background: linear-gradient(to bottom right, $grayscale-13, $grayscale-15);
+	border: 1px solid $grayscale-15;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } // P, LI
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAYSCALE-DARK
+
+.container-gradient-grayscale-xdark {
+    // GLOBAL
+	background: $grayscale-16;
+	background: linear-gradient(to bottom right, $grayscale-15, $grayscale-17);
+	border: 1px solid $grayscale-17;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $grayscale-0;
+	} //HEADINGS
+
+	p, li {
+		color: $grayscale-2;
+    } // P, LI
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CONTAINER-GRADIENT-GRAYSCALE-XDARK

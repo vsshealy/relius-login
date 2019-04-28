@@ -1,0 +1,164 @@
+/**
+ * sass/variables/colors.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+// PENSERV BRAND COLLECTION
+$penserv-navy: #15375e;
+$penserv-blue: #3c73b8;
+$penserv-green: #71a942;
+$penserv-gray: #c6d1d7;
+
+// PENSERV NAVY COLLECTION
+$penserv-navy-0: #ffffff;
+$penserv-navy-1: #e8ebef;
+$penserv-navy-2: #d0d7df;
+$penserv-navy-3: #b9c3cf;
+$penserv-navy-4: #a1afbf;
+$penserv-navy-5: #8a9bae;
+$penserv-navy-6: #73879e;
+$penserv-navy-7: #5b738e;
+$penserv-navy-8: #445f7e;
+$penserv-navy-9: #2c4b6e;
+$penserv-navy-10: #15375e;
+$penserv-navy-11: #133255;
+$penserv-navy-12: #112c4b;
+$penserv-navy-13: #0f2642;
+$penserv-navy-14: #0d2138;
+$penserv-navy-15: #0b1c2f;
+$penserv-navy-16: #081626;
+$penserv-navy-17: #06101c;
+$penserv-navy-18: #040b13;
+$penserv-navy-19: #020509;
+$penserv-navy-20: #000000;
+
+// PENSERV BLUE COLLECTION
+$penserv-blue-0: #ffffff;
+$penserv-blue-1: #ebf1f8;
+$penserv-blue-2: #d8e3f1;
+$penserv-blue-3: #c4d5ea;
+$penserv-blue-4: #b1c7e3;
+$penserv-blue-5: #9db9db;
+$penserv-blue-6: #8aabd4;
+$penserv-blue-7: #779dcd;
+$penserv-blue-8: #638fc6;
+$penserv-blue-9: #4f81bf;
+$penserv-blue-10: #3c73b8;
+$penserv-blue-11: #3668a6;
+$penserv-blue-12: #305c93;
+$penserv-blue-13: #2a5181;
+$penserv-blue-14: #24456e;
+$penserv-blue-15: #1e3a5c;
+$penserv-blue-16: #182e4a;
+$penserv-blue-17: #122237;
+$penserv-blue-18: #0c1725;
+$penserv-blue-19: #060b12;
+$penserv-blue-20: #000000;
+
+// PENSERV GREEN COLLECTION
+$penserv-green-0: #ffffff;
+$penserv-green-1: #f1f6ec;
+$penserv-green-2: #e3eed9;
+$penserv-green-3: #d4e5c6;
+$penserv-green-4: #c6ddb3;
+$penserv-green-5: #b8d4a0;
+$penserv-green-6: #aacb8e;
+$penserv-green-7: #9cc37b;
+$penserv-green-8: #8dba68;
+$penserv-green-9: #7fb255;
+$penserv-green-10: #71a942;
+$penserv-green-11: #66983b;
+$penserv-green-12: #5a8735;
+$penserv-green-13: #4f762e;
+$penserv-green-14: #446528;
+$penserv-green-15: #395521;
+$penserv-green-16: #2d441a;
+$penserv-green-17: #223314;
+$penserv-green-18: #17220d;
+$penserv-green-19: #0b1107;
+$penserv-green-20: #000000;
+
+// PENSERV GRAY COLLECTION
+$penserv-gray-0: #ffffff;
+$penserv-gray-1: #f9fafb;
+$penserv-gray-2: #f4f6f7;
+$penserv-gray-3: #eef1f3;
+$penserv-gray-4: #e8edef;
+$penserv-gray-5: #e3e8eb;
+$penserv-gray-6: #dde3e7;
+$penserv-gray-7: #d7dfe3;
+$penserv-gray-8: #d1dadf;
+$penserv-gray-9: #ccd6db;
+$penserv-gray-10: #c6d1d7;
+$penserv-gray-11: #b2bcc1;
+$penserv-gray-12: #9ea7ac;
+$penserv-gray-13: #8b9296;
+$penserv-gray-14: #777d81;
+$penserv-gray-15: #63696c;
+$penserv-gray-16: #4f5456;
+$penserv-gray-17: #3b3f41;
+$penserv-gray-18: #282a2b;
+$penserv-gray-19: #141515;
+$penserv-gray-20: #000000;
+
+// PENSERV BLEND COLLECTION
+$penserv-blend-1: #3c73b8;
+$penserv-blend-2: #3a70b3;
+$penserv-blend-3: #386daf;
+$penserv-blend-4: #366aaa;
+$penserv-blend-5: #3467a6;
+$penserv-blend-6: #3264a1;
+$penserv-blend-7: #30619d;
+$penserv-blend-8: #2e5e98;
+$penserv-blend-9: #2c5b94;
+$penserv-blend-10: #2a588f;
+$penserv-blend-11: #29558b;
+$penserv-blend-12: #275286;
+$penserv-blend-13: #254f82;
+$penserv-blend-14: #234c7e;
+$penserv-blend-15: #214979;
+$penserv-blend-16: #1f4675;
+$penserv-blend-17: #1d4370;
+$penserv-blend-18: #1b406c;
+$penserv-blend-19: #193d67;
+$penserv-blend-20: #173a63;
+$penserv-blend-21: #15375e;
+
+// GRAYSCALE COLLECTION
+$grayscale-0: #ffffff;
+$grayscale-1: #f2f2f2;
+$grayscale-2: #e5e5e5;
+$grayscale-3: #d9d9d9;
+$grayscale-4: #cccccc;
+$grayscale-5: #bfbfbf;
+$grayscale-6: #b2b2b2;
+$grayscale-7: #a6a6a6;
+$grayscale-8: #999999;
+$grayscale-9: #8c8c8c;
+$grayscale-10: #808080;
+$grayscale-11: #737373;
+$grayscale-12: #666666;
+$grayscale-13: #595959;
+$grayscale-14: #4c4c4c;
+$grayscale-15: #404040;
+$grayscale-16: #333333;
+$grayscale-17: #262626;
+$grayscale-18: #191919;
+$grayscale-19: #0d0d0d;
+$grayscale-20: #000000;
+
+// BLACK COLLECTION
+$black-rgb: #000000;
+$black-rich: #231f20;
+$black-neutralrich: #000104;
+$black-pantone: #2e2a25;
+$black-registration: #000000;
+$black-designer: #000000;
+$black-photoshop: #000000;
+$black-cool: #001423;
+$black-warm: #220000;
+$black-golden: #1e1b00;

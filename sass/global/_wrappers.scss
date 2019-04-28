@@ -1,0 +1,177 @@
+/**
+ * sass/global/wrappers.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+.wrapper-content {
+	// GLOBAL
+	margin: 0.00rem auto !important;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {
+		width: 100% !important;
+	} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {
+		width: 90% !important;
+		max-width: 1920px !important;
+	} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-CONTENT
+
+.wrapper-full {
+	// GLOBAL
+	min-height: 100vh !important;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-FULL
+
+.wrapper-hero-home {
+	// GLOBAL
+	padding: 4.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {
+		min-height: 100vh important;
+	} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {
+		min-height: 75vh !important;
+	} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-HERO-HOME
+
+.wrapper-hero-subpage {
+	// GLOBAL
+	padding: 4.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {
+		min-height: 75vh !important;
+	} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {
+		min-height: 50vh !important;
+	} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-HERO-SUBPAGE
+
+.wrapper-section {
+	// GLOBAL
+	min-height: 100vh !important;
+	padding: 4.00rem 0.00rem;
+	
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {
+		min-height: 75vh !important;
+	} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-SECTION
+
+.wrapper-banner {
+	// GLOBAL
+	min-height: 75vh !important;
+	padding: 4.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {
+		min-height: 50vh !important;
+	} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-BANNER
+
+.wrapper-page {
+	// GLOBAL
+	padding: 4.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-PAGE
+
+.wrapper-header {
+	// GLOBAL
+	padding: 1.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-HEADER
+
+.wrapper-footer {
+	// GLOBAL
+	padding: 2.00rem 0.00rem;
+
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-FOOTER
+
+.wrapper-none {
+	// GLOBAL
+	padding: 0.00rem;
+	
+	// MOBILE
+	@media #{$screen-xs} {} //COL-XS
+	@media #{$screen-sm} {} //COL-SM
+	@media #{$screen-md} {} //COL-MD
+	@media #{$media-mobile} {} //MOBILE
+
+	// DESKTOP
+	@media #{$screen-lg} {} //COL-LG
+	@media #{$screen-xl} {} //COL-XL
+} //.WRAPPER-NONE

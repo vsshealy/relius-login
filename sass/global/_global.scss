@@ -1,0 +1,95 @@
+/**
+ * sass/global/global.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+* {
+    // GLOBAL
+    box-sizing: border-box;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //*
+
+html {
+    // GLOBAL
+    width: 100vw;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //HTML
+
+body {
+    // GLOBAL
+    height: 100vh;
+    width: 100.00%;
+    margin: 0.00rem;
+    padding: 0.00rem;
+    background-color: $penserv-navy-10;
+    font-family: $text-body;
+    font-weight: 400;
+    line-height: 1.50;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.00rem;
+    color: $color-text-body;
+    overflow-x: hidden;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {
+        font-size: 16px;
+    } //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        font-size: 18px;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //BODY
+
+.clearfix {
+    // GLOBAL
+    zoom: 1;
+
+    &:before, &:after {
+        content: "";
+        display: table;
+    } //:BEFORE, :AFTER
+    
+    &:after {
+        clear: both;
+    } //:AFTER
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.CLEARFIX

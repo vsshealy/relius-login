@@ -1,0 +1,114 @@
+/**
+ * sass/global/devices.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+.mobile-show {
+    // GLOBAL
+    visibility: visible;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {
+        visibility: hidden;
+    } //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.MOBILE-SHOW
+
+.mobile-hide {
+    // GLOBAL
+    visibility: hidden;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {
+        visibility: visible;
+    } //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.MOBILE-HIDE
+
+.tablet-show {
+    // GLOBAL
+    visibility: hidden;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {
+        visibility: visible;
+    } //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        visibility: hidden;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.TABLET-SHOW
+
+.tablet-hide {
+    // GLOBAL
+    visibility: visible;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {
+        visibility: hidden;
+    } //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        visibility: visible;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.TABLET-HIDE
+
+.desktop-show {
+    // GLOBAL
+    visibility: hidden;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        visibility: visible;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.DESKTOP-SHOW
+
+.desktop-hide {
+    // GLOBAL
+    visibility: visible;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        visibility: hidden;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.DESKTOP-HIDE

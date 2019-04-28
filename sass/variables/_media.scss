@@ -1,0 +1,30 @@
+/**
+ * sass/variables/media.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+// MEDIA
+$screen-xs: "(max-width: 575px)";
+$screen-sm: "(min-width: 576px)";
+$screen-md: "(min-width: 768px)";
+$screen-lg: "(min-width: 992px)";
+$screen-xl: "(min-width: 1200px)";
+
+// DEVICES
+$media-phone: "(max-width: 575px)";
+$media-tablet: "(min-width: 576px) and (max-width: 991px)";
+$media-mobile: "(max-width: 991px)";
+$media-desktop: "(min-width: 992px)";
+$media-desktop-small: "(min-width: 992px)";
+$media-desktop-large: "(min-width: 1200px)";
+
+// BOOTSTRAP
+$col-xs: "(max-width: 575px)";
+$col-sm: "(min-width: 576px)";
+$col-md: "(min-width: 768px)";
+$col-lg: "(min-width: 992px)";
+$col-xl: "(min-width: 1200px)";

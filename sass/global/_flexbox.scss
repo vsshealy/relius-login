@@ -1,0 +1,346 @@
+/**
+ * sass/global/flexbox.scss
+ * 
+ * Created | 3/7/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+.flexbox {
+    // GLOBAL
+    display: flex;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX
+
+.flexbox-row {
+    // GLOBAL
+    display: flex;
+    flex-direction: row;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-ROW
+
+.flexbox-rowreverse {
+    // GLOBAL
+    display: flex;
+    flex-direction: row-reverse;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-ROWREVERSE
+
+.flexbox-column {
+    // GLOBAL
+    display: flex;
+    flex-direction: column;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-COLUMN
+
+.flexbox-columnreverse {
+    // GLOBAL
+    display: flex;
+    flex-direction: column-reverse;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-COLUMNREVERSE
+
+.flexbox-horizontal-left {
+    // GLOBAL
+    display: flex;
+    justify-content: flex-start;
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-HORIZONTAL-LEFT
+
+.flexbox-horizontal-right {
+    // GLOBAL
+    display: flex;
+    justify-content: flex-end;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-HORIZONTAL-RIGHT
+
+.flexbox-horizontal-center {
+    // GLOBAL
+    display: flex;
+    justify-content: center;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-HORIZONTAL-CENTER
+
+.flexbox-horizontal-spacebetween {
+    // GLOBAL
+    display: flex;
+    justify-content: space-between;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-HORIZONTAL-SPACEBETWEEN
+
+.flexbox-horizontal-spacearound {
+    // GLOBAL
+    display: flex;
+    justify-content: space-around;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-HORIZONTAL-SPACEAROUND
+
+.flexbox-vertical-top {
+    // GLOBAL
+    display: flex;
+    align-items: flex-start;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-TOP
+
+.flexbox-vertical-bottom {
+    // GLOBAL
+    display: flex;
+    align-items: flex-end;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-BOTTOM
+
+.flexbox-vertical-center {
+    // GLOBAL
+    display: flex;
+    align-items: center;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-CENTER
+
+.flexbox-vertical-baseline {
+    // GLOBAL
+    display: flex;
+    align-items: baseline;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-BASELINE
+
+.flexbox-vertical-stretch {
+    // GLOBAL
+    display: flex;
+    align-items: stretch;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-STRETCH
+
+.flexbox-vertical-spacebetween {
+    // GLOBAL
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-SPACEBETWEEN
+
+.flexbox-vertical-spacearound {
+    // GLOBAL
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-VERTICAL-SPACEAROUND
+
+.flexbox-center-all {
+    // GLOBAL
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-CENTER-ALL
+
+.flexbox-wrap {
+    // GLOBAL
+    display: flex;
+    flex-wrap: wrap;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-WRAP
+
+.flexbox-nowrap {
+    // GLOBAL
+    display: flex;
+    flex-wrap: nowrap;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-NOWRAP
+
+.flexbox-wrapreverse {
+    // GLOBAL
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+} //.FLEXBOX-WRAPREVERSE

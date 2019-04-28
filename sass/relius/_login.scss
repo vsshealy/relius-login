@@ -1,0 +1,135 @@
+/**
+ * sass/relius/login.scss
+ * 
+ * Created | 4/27/2019
+ * Updated | 
+ * 
+ * Notes | 
+**/
+
+.container-parent {
+    // GLOBAL
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$media-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    .background-image {
+        // GLOBAL
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+        z-index: -1;
+        background-image: url('http://placehold.it/1920x1080');
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+    } //.BACKGROUND-IMAGE
+
+    .background-overlay {
+        // GLOBAL
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0.00rem;
+        left: 0.00rem;
+        z-index: 0;
+        background: $penserv-navy-10;
+        background: linear-gradient(to bottom right, $penserv-blue, $penserv-navy);
+        opacity: 0.85;
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+    } //.BACKGROUND-OVERLAY
+
+    .row.wrapper-content {
+        // GLOBAL
+        height: 100%;
+        display: flex;
+        padding-top: 4.00rem;
+        padding-bottom: 4.00rem;
+        position: relative;
+        align-items: center;
+        
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$media-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        .col-sm-12, .col-md-6, .col-lg-8, .col-lg-4 {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$media-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            h1, h2, h3, h4, h5, h6 {
+                // GLOBAL
+                color: $grayscale-0;
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$media-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+            } //HEADINGS
+
+            p, li {
+                // GLOBAL
+                color: $grayscale-2;
+                
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$media-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+            } //P, LI
+        } //BOOTSTRAP
+    } //.ROW.WRAPPER-CONTENT
+} //.CONTAINER-PARENT
