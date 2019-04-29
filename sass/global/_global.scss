@@ -42,6 +42,7 @@ body {
     height: 100vh;
     width: 100.00%;
     margin: 0.00rem;
+    margin-bottom: 0.00rem !important;
     padding: 0.00rem;
     background-color: $penserv-navy-10;
     font-family: $text-body;
@@ -60,12 +61,12 @@ body {
     @media #{$screen-sm} {} //COL-SM
     @media #{$screen-md} {} //COL-MD
     @media #{$media-mobile} {
-        font-size: 16px;
+        font-size: 16px !important;
     } //MOBILE
 
     // DESKTOP
     @media #{$screen-lg} {
-        font-size: 18px;
+        font-size: 20px !important;
     } //COL-LG
     @media #{$screen-xl} {} //COL-XL
 } //BODY

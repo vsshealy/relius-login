@@ -10,8 +10,9 @@
 // HEADING TEXT
 h1, h2, h3, h4, h5, h6 {
     // GLOBAL
-    font-family: $text-headings;
+    font-family: $text-headings !important;
     line-height: 1.25;
+    text-transform: uppercase !important;
     color: $color-text-headings;
     margin: 2.00rem 0.00rem;
     padding: 0.00rem;
@@ -29,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     // GLOBAL
-    font-size: 2.25em;
+    font-size: 3.00em !important;
+    font-weight: 700 !important;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -44,7 +46,7 @@ h1 {
 
 h2 {
     // GLOBAL
-    font-size: 2.00em;
+    font-size: 2.00em !important;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -59,7 +61,7 @@ h2 {
 
 h3 {
     // GLOBAL
-    font-size: 1.75em;
+    font-size: 1.75em !important;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -89,7 +91,7 @@ h4 {
 
 h5 {
     // GLOBAL
-    font-size: 1.25em;
+    font-size: 1.25em !important;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -104,7 +106,7 @@ h5 {
 
 h6 {
     // GLOBAL
-    font-size: 1.00em;
+    font-size: 1.00em !important;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -122,8 +124,8 @@ p, li {
     // GLOBAL
     font-family: $text-body;
     font-weight: 300;
-    font-size: 1.00em;
-    line-height: 1.50;
+    font-size: 1.00em !important;
+    line-height: 1.50 !important;
     color: $color-text-body;
     margin: 0.00rem;
 

@@ -89,6 +89,36 @@
         @media #{$screen-lg} {} //COL-LG
         @media #{$screen-xl} {} //COL-XL
 
+        #text {
+            // GLOBAL            
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {
+                padding-right: 4.00rem;
+            } //COL-MD
+            @media #{$media-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {
+                padding-right: 8.00rem;
+            } //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+        } //#TEXT
+
+        #login {
+            // GLOBAL            
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$media-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+        } //#LOGIN
+
         .col-sm-12, .col-md-6, .col-lg-8, .col-lg-4 {
             // GLOBAL
             // MOBILE

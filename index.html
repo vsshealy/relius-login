@@ -26,6 +26,8 @@
 
         <!-- STYLESHEET -->
         <link rel="stylesheet" href="style.min.css"/>
+        <link rel="stylesheet" href="https://secure.penserv.com/portal/resources/app.min.css" />
+        <link rel="stylesheet" href="https://secure.penserv.com/portal/resources/css/default.min.css" />
 
     </head>
 
@@ -39,7 +41,7 @@
                 <div class="row wrapper-content">
 
                     <!-- TEXT -->
-                    <div class="col-sm-12 col-md-6 col-lg-8">
+                    <div id="text" class="col-sm-12 col-md-6 col-lg-6">
                         <h1>Welcome to PenServ</h1>
                         <p>Your Plan Portal has changed. When you login you’ll notice an updated look that includes streamlined navigation, and updated screens to manage your account.</p>
                         
@@ -49,8 +51,102 @@
                     </div>
 
                     <!-- LOGIN -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <h4>Welcome</h4>
+                    <div id="login" class="col-sm-12 col-md-6 col-lg-6">
+                        <div id="divHeader" class="card-header row">
+                            <div class="new-user pull-left" style="color: #ffffff;">
+                                <a href="#" class="white newUser language-selection"><span class="glyphicons circle_plus icon glyphiconsloginpage"></span></a>
+                                <a href="#" class="white newUser language-selection login-font12px login-newuser-margin">New Participant</a>
+                            </div> <!-- /.NEW-USER -->
+
+                            <div class="pull-right language-selection login-orangetext login-font12px login-language-margin" ng-show="hasLanguageSelection">
+                                <span></span>
+                            </div> <!-- /.PULL-RIGHT -->
+                        </div> <!-- /#DIVHEADER -->
+
+                        <div class="card-body login-greeting">
+                            <h2 class="text-center login-orangetext" ng-show="greeting">
+                                <strong>Welcome</strong>
+                            </h2>
+
+                            <form action="default.aspx" id="loginform" method="post" name="loginform" onsubmit="return ProcessLogin();" autocomplete="off" _lpchecked="1">
+                                <input type="hidden" name="LANGUAGE" value="ENG">
+
+                                <div id="loginformcell">
+                                    <div id="transition" style="display: none">
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <div class="text-center login-orangetext">
+                                            <div class="progressanim" style="margin: auto;">
+                                                <img src="https://secure.penserv.com/portal/graphics/custom/loading.anim.gif" border="0" alt="LOADING... please wait">
+                                                <div id="one" class="progressmsg" style="margin: auto; width: 300px; text-align: center;">Please wait...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="loginpage" class="loginpage-margin-top">
+                                        <div class="form-group username">
+                                            <label for="USERID" class="required"><strong>Username</strong></label>
+                                            <input type="hidden" name="USERID" id="USERID">
+                                            <input type="text" name="prevent_autofill" id="prevent_autofill" value=""
+                                                style="display: none; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
+                                                autocomplete="off">
+                                            <input type="password" name="password_fake" id="password_fake" value=""
+                                                style="display: none; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
+                                                autocomplete="off">
+                                            <input type="text" id="ReliusUserID" name="ReliusUserID" class="form-control loginpage-userpass-margintop"
+                                                required="required" onchange="javascript:ReliusUserIDChange();" autocomplete="off"
+                                                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
+                                        </div>
+
+                                        <div class="form-group password">
+                                            <label for="PASSWDTXT" class="required"><strong>Password</strong></label>
+                                            <input type="password" name="PASSWDTXT" id="PASSWDTXT" value="" required="required"
+                                                class="form-control loginpage-userpass-margintop" autocomplete="off"
+                                                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                                        </div>
+
+                                        <div class="form-group clearfix loginpage-default-clearfix">
+                                            &nbsp;
+                                            <a href="#" class="forgot-password pull-right">Forgot User ID or Password?</a>
+                                        </div>
+
+                                        <div class="form-group loginpage-roleselection-margintop">
+                                            <select name="usertype" id="usertype" class="form-control">
+                                                <option value="participant" selected="true">Participant</option>
+                                                <option value="sponsor">Sponsor</option>
+                                                <option value="advisor">Advisor</option>
+                                            </select>
+
+                                            <script type="text/javascript">
+                                                var userTypeCnt = document.getElementById('usertype').length;
+                                                if (userTypeCnt <= 1) {
+                                                    document.getElementById('usertype').style.display = 'none';
+                                                }
+                                            </script>
+                                        </div>
+                                        
+                                        <div class="form-group submit">
+                                            <button type="submit" value="submit" class="btn"
+                                                onclick="javascript:HideHeaderFooter(); SaveReliusUser();">Login</button>
+                                        </div>
+
+                                        <div style="color:#FFFFFF;text-align: center;margin-top:30px;">
+                                            <p>Your user ID and your password are case sensitive. For your security, your account will be locked if you
+                                                incorrectly enter your login information three times.</p>
+                                            <p>To have your account re-enabled or for other login help, please call (800) 849-4001.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <input type="hidden" name="DROP" value>
+
+                                <input type="hidden" name="LoginButton" value="true">
+
+                                <input type="hidden" name="AppVersion" value>
+                            </form>
+                        </div> <!-- /.CARD-BODY.LOGIN-GREETING -->
+
+                        <div id="divFooter" class="card-footer loginpage-cardfooter-paddingbottom"></div> <!-- /#DIVFOOTER -->
                     </div>
 
                 </div> <!-- /.ROW.WRAPPER-CONTENT -->
